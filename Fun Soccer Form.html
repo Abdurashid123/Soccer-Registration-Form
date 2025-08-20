@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online HTML Editor</title>
+</head>
+  <style>
+      h1{
+          text-align:center;
+          color:green;
+      }
+      body{
+          background:rgb(240, 244, 248);
+      }
+     .container{
+        max-width:600px;
+        background:white;
+        padding:20px;
+        border-radius:20px;
+        box-shadow:0 4px 10px rgba(3,4,2,0.3);
+     }
+     input, select, textarea{
+      width:100%;
+      padding:10px;
+      margin-top:5px;
+      border:1px solid lightgrey;
+      border-radius:7px;
+      font-size:1rem;
+     }
+     .container:hover{
+         background-image:url(https://assets.bizclikmedia.net/1800/ae6b6628be6c1a091f59ab494861e4eb:aa273f51cacef2cd0aab71ea26084219/article-im2219-soccer-ball-jpeg.webp);
+     }
+     .container:hover h1{
+         color:black;
+     }
+     .container:hover label{
+         font-size:25px;
+     }
+     button:hover{
+         background-color:green;
+     }
+     button{
+         padding:12px;
+         width:150px;
+         border-radius:10px;
+         border:5px white;
+         background-color:lightgrey;
+         font-size:20px;
+     }
+  </style>
+<body>
+  <div class="container">
+    <h1>Soccer Registration Form</h1>  
+    <form>
+       <label>Full Name</label>
+       <input type="text" placeholder="Enter Your Full Name" required><br><br>
+       
+       <label>Age</label>
+       <input type="number" placeholder="Enter Your Age" required><br><br>
+       
+       <label>Email</label>
+       <input type="email" placeholder="ThisIsMyEmail.example" required><br><br>
+       
+       <label>Phone Number</label>
+       <input type="number" placeholder="Enter Your Full Name" required><br><br>
+       
+       <label>Preferred Position</label>
+       <select>
+           <option>Select Position</option>
+           <option>Goal Keeper</option>
+           <option>Defender</option>
+           <option>Mid Fielder</option>
+           <option>Forward</option>
+       </select><br><br>
+       
+       <label>Soccer Experience</label>
+       <input type="number" placeholder="Enter The Number Of Years You Played Soccer For" required><br><br>
+       
+       <label>Favorite Soccer Team</label>
+       <input type="text" placeholder="Enter Your Favorite Soccer Team's Name"><br><br>
+       
+       <label>Favorite Soccer Player</label>
+       <input type="" placeholder="Enter Your Favorite Soccer Player's Name"><br><br>
+       
+       <label>Why Do You Like Soccer</label>
+       <textarea placeholder="I like soccer because..." rows="5"required></textarea>
+       <button type="submit">Submit</button>
+    </form>  
+  </div>
+</body>
+</html>
